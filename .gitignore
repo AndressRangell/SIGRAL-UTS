@@ -1,0 +1,70 @@
+# =========================================================
+# ⚙️ General system and environment files
+# =========================================================
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# =========================================================
+# 🧩 Node / JavaScript / TypeScript
+# =========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+coverage/
+typings/
+libpeerconnection.log
+/connect.lock
+/.angular/cache
+/.sass-cache/
+
+# =========================================================
+# 🧠 IDEs and Editors
+# =========================================================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# =========================================================
+# 💻 Visual Studio Code
+# =========================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# =========================================================
+# 🧪 Testing / Build artifacts
+# =========================================================
+testem.log
+/coverage
+/build
+/output
+dist/
+
+# =========================================================
+# 🧰 Optional for monorepos or toolchains
+# =========================================================
+.cxx/
+externalNativeBuild/
